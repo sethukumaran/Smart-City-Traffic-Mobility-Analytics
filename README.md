@@ -296,6 +296,21 @@ There are also unusually large maximum values for some operational fields such a
 - City zones and road/intersection IDs are anonymized.
 - Business recommendations should be validated against actual traffic-control constraints, infrastructure capacity, and local operating procedures.
 
+## Key business insights
+- 204,000 records, 47 columns, covering Jan 1–Mar 26, 2026.
+- No missing values and no duplicate rows.
+- Midday is the major congestion window: congestion reaches roughly 99–100 around hours 10–14.
+- Rush-hour congestion averages 71.25 vs 44.38 during non-rush periods.
+- Rush-hour average waiting time is 20.28 vs 10.00 minutes.
+- Downtown Core and Financial District have the highest average zone-level congestion.
+- Traffic density has a very strong association with congestion (r ≈ 0.946).
+- Vehicle count is also strongly associated with congestion (r ≈ 0.885).
+- Average speed has a negative relationship with congestion (r ≈ -0.680).
+- Accident observations have approximately 63.06 minutes average waiting time vs 11.12 minutes when no accident is reported.
+- Severe congestion is associated with much higher estimated emissions and lower average speed.
+- Weekends show materially lower congestion and waiting times than weekdays.
+- Heavy rain is associated with higher congestion, although traffic-volume variables show much stronger relationships.
+
 ## Conclusion
 
 This project demonstrates an end-to-end analytics workflow for smart-city traffic management. The strongest analytical signal is the relationship between **traffic density, vehicle volume, speed, congestion, and downstream environmental impact**.
