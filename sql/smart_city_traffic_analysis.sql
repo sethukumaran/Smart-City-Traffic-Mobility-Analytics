@@ -1,5 +1,5 @@
 -- Smart City Traffic & Mobility Analysis
--- SQL dialect: PostgreSQL / ANSI-style SQL
+-- SQL dialect: MS SQL
 -- Load the CSV into a table named smart_city_traffic_mobility.
 
 -- 1. Dataset overview
